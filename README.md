@@ -28,9 +28,10 @@ SteamDevAppId=480
 [/Script/OnlineSubsystemSteam.SteamNetDriver]
 NetConnectionClassName="OnlineSubsystemSteam.SteamNetConnection"
 
-[/Script/Engine.RendererSettings]
-r.AllowGlobalClipPlane=True
-
 ```
 - Save and Close DefaultEngine.ini
 - Restart Engine
+- Rebuild and Package Game
+- Open Steam
+- [Download Spacewar on Steam](steam://install/480)
+- Enjoy Multiplayer
